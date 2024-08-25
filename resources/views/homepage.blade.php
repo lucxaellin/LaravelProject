@@ -30,7 +30,7 @@
 
     <div class="Main">
         <img class="profile" src="{{ asset('images/Profile.jpg') }}" alt="Profile Image" width="500" height="500">
-        <p class="SmallIntro"><br><br><br><br>| Web System and Technologies |</p>
+        <p class="SmallIntro"><br><br><br><br>| IT ELEC 1 Web Development |</p>
         <p class="Name"><b>ELAINE MAE A.BERTIZ</b></p>
         <p class="Description">A Bachelor of Science in Information Technology Student<br></p>
         <p class="Description2">
