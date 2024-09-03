@@ -33,3 +33,16 @@ Route::get('/hobbies', function () {
 Route::get('/resume', function () {
     return view('resume');
 });
+
+Route::get('/contactus', function () {
+    return view('contactus');
+});
+
+Route::get('/username_form', function () {
+    return view('username_form');
+});
+
+Route::get('/user', function () {
+    $username = request('username', 'Guest');
+    return view('welcome', ['username' => $username]);
+});

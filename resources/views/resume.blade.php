@@ -8,14 +8,12 @@
     <title>Resume</title>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Function to handle navigation to hyperlinks
             function navigateTo(link) {
                 window.location.href = link;
             }
 
-            // Add click event listener to the "BACK TO HOME" button
             document.getElementById('profileButton').addEventListener('click', function() {
-                navigateTo('{{ url('/') }}'); // Assuming home route is '/'
+                navigateTo('{{ url('/') }}'); 
             });
         });
     </script>

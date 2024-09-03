@@ -54,6 +54,7 @@
                 <a href="{{ url('/') }}" class="nav-button">HOME</a>
                 <a href="{{ url('about') }}" class="nav-button">ABOUT ME</a>
                 <a href="{{ url('content') }}" class="nav-button">CONTENT</a>
+                <a href="{{ url('contactus') }}" class="nav-button">CONTACT US</a>
             </nav>
         </section>
     </header>
