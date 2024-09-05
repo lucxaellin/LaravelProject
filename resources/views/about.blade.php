@@ -9,32 +9,33 @@
 </head>
 <body>
     <header>
-        <section id="about">
-            <nav class="navbar">
-                <a href="{{ url('/') }}" class="nav-button">HOME</a>
-                <a href="{{ url('about') }}" class="nav-button">ABOUT ME</a>
-                <a href="{{ url('content') }}" class="nav-button">CONTENT</a>
-                <a href="{{ url('contactus') }}" class="nav-button">CONTACT US</a>
-            </nav>
-        </section>
+    <section id="about">
+        <nav class="right-aligned-nav">
+        <div class="menu-items">
+        <a href="{{ route('homepage') }}" class="nav-button">HOME</a>
+        <a href="{{ route('aboutus') }}" class="nav-button">ABOUT US</a>
+        <a href="{{ route('content') }}" class="nav-button">CONTENT</a>
+        <a href="{{ route('contactus') }}" class="nav-button">CONTACT US</a>
+        </div>
+        </nav>
+    </section>
     </header>
 
     <section id="about">
-        <h1 class="title">About Me</h1>
+        <h1 class="title">About Us</h1>
         <br>
-        <h2 class="subtitle"> ~ Allow me to Introduce Myself ~</h2>
+        <h2 class="subtitle"> ~ Discover Lucxaellin Hotel - Where Every Stay is a Story Waiting to Unfold ~</h2>
         <br>
 
-        <img class="aboutme" src="{{ asset('images/profile.jpg') }}" width="300" height="350" alt="Profile Image">
+        <img class="aboutme" src="{{ asset('images/about.jpg') }}" width="300" height="350" alt="Profile Image">
 
         <p class="introduction">
-            Hello, I am Elaine, also known as Lainey or Laine. I bring forth a vibrant and positive energy to both my personal and professional life. As an extroverted individual, I find joy in interacting with people and establishing connections.
-            Currently pursuing a Bachelor of Science in Information Technology at Bicol University, I am not only dedicated to academic excellence but also committed to developing practical skills in the ever-evolving field of technology.
-            What sets me apart is my ability to seamlessly transition between leadership roles and collaborative team environments. I consider myself both a capable leader and an enthusiastic team player, valuing the strength that diversity brings to any group. My communication skills and adaptability contribute to effective collaboration, fostering a positive and productive team dynamic.
-            I am particularly eager to learn and gain valuable experiences at every opportunity. This drive for continuous improvement motivates me to embrace challenges and seek innovative solutions. I am confident that my blend of leadership, teamwork, and a perpetual eagerness to learn will make a positive impact in any professional setting. I am a dynamic individual who effortlessly effortlessly transitions between leadership and  teamwork,  driven  by  an
+        A luxurious oasis where comfort meets elegance in every corner. Nestled in a prime location, Lucxaellin Hotel offers a unique blend of modern sophistication and timeless charm, making it the perfect destination for both leisure and business travelers.
+        At Lucxaellin, we pride ourselves on providing an exceptional experience for our guests. From the moment you step through our doors, you will be greeted by warm hospitality, impeccable service, and a commitment to excellence that defines every aspect of our hotel. Whether you're relaxing in one of our beautifully designed rooms or enjoying a fine dining experience at our restaurant, every detail has been carefully crafted to ensure your stay is nothing short of perfect.
+        Our mission is to create a serene and memorable atmosphere where every guest feels special. We invite you to unwind in our luxurious amenities, explore the vibrant surroundings, and indulge in a stay that is tailored to your needs. From our state-of-the-art wellness center to our exquisitely landscaped gardens, every aspect of Lucxaellin Hotel is designed to rejuvenate your mind and spirit. Our dedicated staff is always on hand to ensure that your stay exceeds your expectations, making every moment a treasured memory.
         </p>
         <p class="introduction2">
-            unwavering enthusiasm for learning and growth. Eager to contribute my skills to any team, I possess a strong profile and a passion for creating positive work experiences. I am open to new opportunities and envision being a valuable asset to any company's success story. I am seeking a meaningful and impactful role where my skills and enthusiasm align with a shared vision for success.
+        <br>Lucxaellin Hotel – Experience elegance, embrace tranquility.
         </p>
     </section>
 </body>

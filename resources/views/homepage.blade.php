@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-    <title>My Profile</title>
+    <title>Homepage</title>
     <style>
         #emailButton, #phoneButton, #facebookButton, #instagramButton {
             display: none;
@@ -15,35 +15,42 @@
             border: none;
             cursor: pointer;
         }
+        h1 {
+            color: white;
+            font-size: 25px;
+            font-weight: 700;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <section id="about">
-            <nav class="navbar">
-                <a href="{{ url('/') }}" class="nav-button">HOME</a>
-                <a href="{{ url('about') }}" class="nav-button">ABOUT ME</a>
+<header>
+    <section id="about">
+        <nav class="navbar">
+            <h1 class="welcome-text">Welcome, {{ $username }}!</h1>
+            <div class="nav-links">
+                <a href="{{ url('homepage') }}" class="nav-button">HOME</a>
+                <a href="{{ url('about') }}" class="nav-button">ABOUT US</a>
                 <a href="{{ url('content') }}" class="nav-button">CONTENT</a>
                 <a href="{{ url('contactus') }}" class="nav-button">CONTACT US</a>
-            </nav>
-        </section>
-    </header>
+            </div>
+        </nav>
+    </section>
+</header>
 
     <div class="Main">
-        <img class="profile" src="{{ asset('images/Profile.jpg') }}" alt="Profile Image" width="500" height="500">
-        <p class="SmallIntro"><br><br><br><br>| IT ELEC 1 Web Development |</p>
-        <p class="Name"><b>ELAINE MAE A.BERTIZ</b></p>
-        <p class="Description">A Bachelor of Science in Information Technology Student<br></p>
+        <img class="profile" src="{{ asset('images/hotel.jpg') }}" alt="Profile Image" width="500" height="500">
+        <p class="SmallIntro"><br><br><br><br>| Experience through Elegance |</p>
+        <p class="Name"><b>LUCXAELLIN HOTEL</b></p>
+        <p class="Description">Book your dream getaway!<br></p>
         <p class="Description2">
-            "Any sufficiently advanced technology is equivalent to magic." <br> 
-            &nbsp; &nbsp; - Arthur C. Clarke (Author)<br><br><br>
+            "Where elegance meets comfort in the heart of luxury. At Lucxaellin Hotel, we redefine your stay with exceptional service, modern amenities, and a serene atmosphere designed for relaxation. Whether you’re here for business, leisure, or a special occasion, our personalized touch ensures an unforgettable experience. Indulge in the finest hospitality and let Lucxaellin Hotel be your haven away from home." <br> 
+            &nbsp; &nbsp; <br><br><br>
         </p>
 
         <button class="button a" id="ResumeButton" role="button" 
         style="margin-left: 7.5cm;">
         <a href="{{ url('resume') }}" 
-       style="color: white; text-decoration: none; font-size: 16px; display: inline-block; text-align: center;">View Resume
-        </a>
+        style="color: white; text-decoration: none; font-size: 16px; display: inline-block; text-align: center;">Terms and Condition</a>
         </button>
 
         <button class="button" id="contactsButton" role="button" style="margin-left: 45px;">Show Contacts</button>

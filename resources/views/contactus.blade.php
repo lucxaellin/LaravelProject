@@ -10,8 +10,8 @@
         #profileButton, #aboutMeButton, #personalInfoButton {
             display: inline-block;
             padding: 10px 20px;
-            color: white;
-            background-color: #007bff;
+            color: rgb(76, 75, 75);
+            background-color: #ffd4d4;
             border: none;
             border-radius: 5px;
             text-decoration: none;
@@ -20,7 +20,7 @@
         }
 
         #profileButton:hover, #aboutMeButton:hover, #personalInfoButton:hover {
-            background-color: #0056b3;
+            background-color:  #ffd4d4;
         }
 
         .contact-form {
@@ -32,13 +32,13 @@
 
         .contact-form h2 {
             text-align: center;
-            color: #333;
+            color: rgb(76, 75, 75);
         }
 
         .contact-form label {
             display: block;
             margin: 10px 0 5px;
-            color: white; 
+            color: rgb(76, 75, 75); 
             font-weight: bold; 
         }
 
@@ -48,48 +48,52 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             margin-bottom: 10px;
-            background-color: #D6EBF2;
+            background-color:#ffd4d4;
         }
 
         .contact-form input[type="submit"] {
-            background-color: #0056b3;
-            color: white;
+            background-color: #f4acb7;
+            color: rgb(76, 75, 75);
             border: none;
-            padding: 10px;
+            padding: 12px;
             cursor: pointer;
+            width: 16.5cm;
         }
 
         .contact-form input[type="submit"]:hover {
-            background-color: #004494; 
+            background-color: #ffcad4; 
         }
 
         .notification {
             display: none;
             margin-top: 10px;
-            background-color: #28a745;
-            color: white;
+            background-color: #dfa5ac;
+            color: rgb(76, 75, 75);
             padding: 15px;
             border-radius: 5px;
             text-align: center;
-            font-size: 16px;
+            font-size: 15px;
+            width: 15.7cm;
         }
     </style>
 </head>
 <body>
     <header>
-        <section id="about">
-            <nav class="navbar">
-                <a href="{{ url('/') }}" class="nav-button">HOME</a>
-                <a href="{{ url('about') }}" class="nav-button">ABOUT ME</a>
-                <a href="{{ url('content') }}" class="nav-button">CONTENT</a>
-                <a href="{{ url('contactus') }}" class="nav-button">CONTACT US</a>
-            </nav>
-        </section>
+    <section id="about">
+        <nav class="right-aligned-nav">
+        <div class="menu-items">
+        <a href="{{ route('homepage') }}" class="nav-button">HOME</a>
+        <a href="{{ route('aboutus') }}" class="nav-button">ABOUT US</a>
+        <a href="{{ route('content') }}" class="nav-button">CONTENT</a>
+        <a href="{{ route('contactus') }}" class="nav-button">CONTACT US</a>
+        </div>
+        </nav>
+    </section>
     </header>
 
     <section id="personal-info">
-        <h1 style="text-align: center; color: white; font-size: 45px; margin-top: 25px;">CONTACT US</h1> <br>
-        <h2 style="text-align: center; color: white; font-size: 20px; margin-top: 5px; margin-bottom: 20px;"> ~ Lets get this conversation started. Tell me a bit about yourself, and I'll get in touch as soon as I can ~</h2>
+        <br><h1 style="text-align: center; color: rgb(181, 99, 117); font-size: 45px; margin-top: 25px;">CONTACT US</h1> <br>
+        <h2 style="text-align: center; color: rgb(76, 75, 75); font-size: 20px; margin-top: 5px; margin-bottom: 20px;"> ~ Lets get this conversation started. Tell me a bit about yourself, and I'll get in touch as soon as I can ~</h2>
         
         <div class="contact-form">
             <form id="contactForm" action="{{ url('contact/submit') }}" method="POST">

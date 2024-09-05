@@ -5,11 +5,11 @@ body, h1, h2, p, img {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../images/Image.jpeg');
+    background-image: url('../images/background.jpg');
 }
 
 header {
-    background-color: #161b33;
+    background-color: #F3BABA;
     padding: 10px;
 }
 nav p {
@@ -21,21 +21,24 @@ nav p {
 }
 
 img.profile {
+    margin-top: 1.7cm;
     border-radius: 15px;
     float: right;
     margin-right: 4cm;
     border-style: ridge;
     border-width: 12px;
-    border-color: #161b33;
+    border-color: #f8d0c8;
 }
 
 img.aboutme {
-    border-radius: 15px;
-    margin-left: 7cm;
+    border-radius: 25px;
+    margin-left: 5cm;
     float:left;
     border-style: ridge;
     border-width: 7px;
-    border-color: #161b33;
+    border-color: #ce717c;
+    height: 11cm;
+    width: 10cm;
 }
 
 img.familypicture {
@@ -51,44 +54,47 @@ img.hobbiespictures{
 
 p.SmallIntro {
     text-align: left;
-    color:yellow;
-    font-size: 22px;
+    color: rgb(76, 75, 75);
     margin-left: 5cm;
-    margin-top: 2cm;
+    margin-top: 1cm;
     margin-bottom: 15px;
+    font-size:20px;
 } 
 
 p.Name{
     text-align: left;
-    color: white;
-    font-size: 48px;
+    color: rgb(181, 99, 117); 
+    font-size: 55px;
     margin-left: 5cm;
     margin-bottom: 13px;
 }
 p.Description{
     text-align: left;
-    color: white;
+    color:  rgb(204, 114, 114);
     font-size: 24px;
     margin-left: 5cm;
     margin-bottom: 35px;
+    font-family: cursive;
 }
 
 p.Description2{
-    text-align: left;
-    color: #b4b6b8;
-    font-size: 20px;
-    margin-left: 5cm;
+        text-align: justify;
+        color: rgb(76, 75, 75);
+        font-size: 20px;
+        margin-left: 5cm;
+        margin-right: 20cm;
 }
+    
 
 h1.Name {
     margin-left: 38rem;
     margin-top: -11.5rem;
     font-family: cursive;
-    color: white;
+    color:  rgb(142, 141, 141);
 }
 
 p.Introduction {
-    color:white;
+    color:rgb(76, 75, 75);
     margin-left: 16cm;
     margin-right: 5cm;
     margin-top: 0.9cm;
@@ -98,9 +104,9 @@ p.Introduction {
 }
 
 p.Introduction2 {
-    color:white;
-    margin-left: 7cm;
-    margin-right: 5cm;
+    color:rgb(76, 75, 75);
+    margin-left: 8cm;
+    margin-right: 3cm;
     margin-top: 6px;
     line-height: 24px;
     text-align: justify;
@@ -136,20 +142,20 @@ table,th,td{
     width: 80%;
     table-layout: fixed;
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     border-collapse: collapse;
     margin-left: 3.8cm;
 }
 tr,th,td{
     padding: 15px;
-    color: white;
+    color: rgb(76, 75, 75);
 }
 
 .table2,th,td{
     width: 100%;
     table-layout: fixed;
     text-align: center;
-    font-size: 15px;
+    font-size: px;
     border-collapse: collapse;
     margin-left:.1cm;
     margin-right: .1cm;
@@ -159,11 +165,12 @@ tr,th,td{
     width: 100%;
     table-layout: fixed;
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     border-collapse: collapse;
     margin-left:.1cm;
     margin-right: .1cm;
 }
+
 .table4,th,td{
     width: 100%;
     table-layout: fixed;
@@ -192,10 +199,10 @@ tr,th,td{
 }
 
 .button {
-    background-color: #161b33;;
+    background-color: #a03c4e;
     border: 0;
     border-radius: .5rem;
-    border: 1px solid #161b33;
+    border: 1px solid #a03c4e;
     box-sizing: border-box;
     color: white;
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -206,7 +213,7 @@ tr,th,td{
     text-align: center;
     text-decoration: none #D1D5DB solid;
     text-decoration-thickness: auto;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 3px 0 rgb(172, 68, 68), 0 1px 2px 0 rgb(172, 68, 68);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
@@ -214,28 +221,28 @@ tr,th,td{
 }
 
 .button a {
-    color: white; /* White text color */
+    color: white;
     text-decoration: none;
     font-size: 16px;
     display: inline-block;
 }
 
 .button-45:active {
-    background-color:  #161b33;
-    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    background-color:  #a03c4e;
+    box-shadow:#a03c4e inset;
     color: #FFFFFF;
 }
 
 .button:hover {
-    background-color: #23395d;
-    border-color:  #161b33;
+    background-color: #bb4960;
+    border-color: #a03c4e;
 }
 
 .button:active:hover,
 .button:focus:hover,
 .button:focus {
-    background-color: #161b33;
-    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    background-color: #a03c4e;
+    box-shadow: #a03c4e inset;
     color: #FFFFFF;
 }
 
@@ -274,10 +281,11 @@ tr,th,td{
 #instagramButton {
     color: #fff;
     float: left;
+    padding-top: 15px;
 }
 
 #emailButton{
-margin-left: 12cm;
+margin-left: 13.3cm;
 }
 
 #phoneButton{
@@ -298,21 +306,49 @@ img.Resume{
 .hobbiespictures:hover {
     opacity: .4; 
     cursor: pointer;
-    color: #23395d;
+    color: #e07f8c;
+}
+
+img.hobbiespictures {
+    height: 11cm;
+}
+
+.roomfeatures:hover {
+    opacity: .4; 
+    cursor: pointer;
+    color: #e07f8c;
+}
+
+img.roomfeatures {
+    height: 10cm;
+    border-radius: 15px;
 }
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    padding: 10px;
+.welcome-text {
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: 28px; 
+    color: #434343; 
+}
+
+.nav-links {
+    display: flex; 
 }
 
 .nav-button {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
     padding: 10px 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(76, 75, 75);
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -321,23 +357,58 @@ img.Resume{
 }
 
 .nav-button:hover {
-    background-color: #0056b3;
+    background-color: #ffd0d3;
 }
 
 .nav-button i {
     margin-right: 5px;
 }
 
+.right-aligned-nav {
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center; 
+        padding: 0 20px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    
+.nav-menu {
+        display: flex;
+}
+    
+.nav-item {
+        display: inline-block;
+        margin-left: 15px;
+        padding: 10px 20px;
+        color: rgb(76, 75, 75);
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s ease;
+}
+    
+.nav-item:hover {
+        background-color: #ffd0d3;
+}
+    
+.nav-item i {
+        margin-right: 5px;
+}
+    
+
 .title {
     text-align: center;
-    color: white;
+    color: rgb(181, 99, 117);
     font-size: 45px;
     margin-top: 25px;
 }
 
 .subtitle {
     text-align: center;
-    color: white;
+    color: rgb(76, 75, 75);
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 30px;
@@ -349,7 +420,7 @@ img.Resume{
 }
 
 .introduction, .introduction2 {
-    color: white;
+    color: rgb(76, 75, 75);
     font-size: 16px;
     line-height: 1.6;
     max-width: 995px;
@@ -363,6 +434,6 @@ img.Resume{
 }
 
 .introduction2{
-    margin-left: 7cm;
-    text-align: left;
+    margin-left: 16cm;
+    margin-right:5cm;
 }

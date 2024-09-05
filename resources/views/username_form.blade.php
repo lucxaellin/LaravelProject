@@ -12,7 +12,7 @@
 
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #ADDFFF;
+            background-image: url('../images/background.jpg');
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,7 +20,7 @@
         }
 
         .container {
-            background-color: #D3E9FE;
+            background-color: #f7d2d6;
             padding: 70px;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -61,19 +61,19 @@
         }
 
         input[type="text"]:focus {
-            border-color: #007BFF;
+            border-color: #ce717c;
         }
 
         .info {
             font-size: 14px;
-            color: #555;
+            color: #ce717c;
             margin-bottom: 20px;
             font-weight: 300;
         }
 
         button {
-            background-color: #007BFF;
-            color: white;
+            background-color: #ce717c;
+            color: rgb(57, 57, 57);
             padding: 12px 20px;
             font-size: 16px;
             border: none;
@@ -85,7 +85,7 @@
         }
 
         button:hover {
-            background-color: #A6C1E0;
+            background-color: #e08c96;
         }
     </style>
 </head>
