@@ -12,7 +12,7 @@
 
         body {
             font-family: 'Poppins', sans-serif;
-            background-image: url('../images/background.jpg');
+            background-image: url('../images/Username_Background.png');
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,7 +20,7 @@
         }
 
         .container {
-            background-color: #f7d2d6;
+            background-color: #F3BABA; 
             padding: 70px;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);

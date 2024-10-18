@@ -80,20 +80,21 @@
 <body>
     <header>
     <section id="about">
-        <nav class="right-aligned-nav">
-        <div class="menu-items">
-        <a href="{{ route('homepage') }}" class="nav-button">HOME</a>
-        <a href="{{ route('aboutus') }}" class="nav-button">ABOUT US</a>
-        <a href="{{ route('content') }}" class="nav-button">CONTENT</a>
-        <a href="{{ route('contactus') }}" class="nav-button">CONTACT US</a>
-        </div>
+    <nav class="navbar">
+            <h1 class="welcome-text">Welcome, {{ $username }}!</h1>
+            <div class="nav-links">
+                <a href="{{ url('homepage') }}" class="nav-button">HOME</a>
+                <a href="{{ url('about') }}" class="nav-button">ABOUT US</a>
+                <a href="{{ url('content') }}" class="nav-button">PORTFOLIO</a>
+                <a href="{{ url('Layout')}}" class="nav-button">CONTACT ME</a>
+            </div>
         </nav>
     </section>
     </header>
 
     <section id="personal-info">
-        <br><h1 style="text-align: center; color: rgb(181, 99, 117); font-size: 45px; margin-top: 25px;">CONTACT US</h1> <br>
-        <h2 style="text-align: center; color: rgb(76, 75, 75); font-size: 20px; margin-top: 5px; margin-bottom: 20px;"> ~ Lets get this conversation started. Tell me a bit about yourself, and I'll get in touch as soon as I can ~</h2>
+        <br><h1 style="text-align: center; color: rgb(181, 99, 117); font-size: 45px; margin-top: 25px;">CONTACT LAINEY</h1> <br>
+        <h2 style="text-align: center; color: rgb(76, 75, 75); font-size: 20px; margin-top: 5px; margin-bottom: 20px;"> ~ Drop me a message—I’m excited to hear from you! ~</h2>
         
         <div class="contact-form">
             <form id="contactForm" action="{{ url('contact/submit') }}" method="POST">
@@ -131,5 +132,23 @@
             
         });
     </script>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+        <h4>Web Development Midterm Portfolio</h4>
+        </div>
+
+        <div class="footer-section social-media">
+            <h5>Submitted by</h5>
+            <div class="social-icon">
+                <p>Elaine Mae A.Bertiz | BSIT 3C</p>
+        </div>
+
+        <div class="footer-section">
+            <br><p>&copy; 2024 Midterm Project. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

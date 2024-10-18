@@ -64,7 +64,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome, {{ $username }}!</h1>
+        <h1>Welcome!</h1>
         <img src="{{ asset('images/Hi.jpeg') }}" alt="Hi Image" width="500" height="500">
         <p><a href="{{ url('/username_form') }}">LOG OUT</a></p>
     </div>

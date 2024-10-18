@@ -11,12 +11,13 @@
     <header>
     <section id="about">
         <nav class="right-aligned-nav">
-        <div class="menu-items">
-        <a href="{{ route('homepage') }}" class="nav-button">HOME</a>
-        <a href="{{ route('aboutus') }}" class="nav-button">ABOUT US</a>
-        <a href="{{ route('content') }}" class="nav-button">CONTENT</a>
-        <a href="{{ route('contactus') }}" class="nav-button">CONTACT US</a>
-        </div>
+        <div class="nav-links">
+                <a href="{{ url('homepage') }}" class="nav-button">HOME</a>
+                <a href="{{ url('about') }}" class="nav-button">ABOUT US</a>
+                <a href="{{ url('content') }}" class="nav-button">CONTENT</a>
+                <a href="{{ url('contactus') }}" class="nav-button">CONTACT US</a>
+                <a href="{{ url('Layout')}}" class="nav-button">ROOMS</a>
+            </div>
         </nav>
     </section>
     </header>

@@ -10,13 +10,14 @@
 <body>
     <header>
     <section id="about">
-        <nav class="right-aligned-nav">
-        <div class="menu-items">
-        <a href="{{ route('homepage') }}" class="nav-button">HOME</a>
-        <a href="{{ route('aboutus') }}" class="nav-button">ABOUT US</a>
-        <a href="{{ route('content') }}" class="nav-button">CONTENT</a>
-        <a href="{{ route('contactus') }}" class="nav-button">CONTACT US</a>
-        </div>
+    <nav class="navbar">
+            <h1 class="welcome-text">Welcome, {{ $username }}!</h1>
+            <div class="nav-links">
+                <a href="{{ url('homepage') }}" class="nav-button">HOME</a>
+                <a href="{{ url('about') }}" class="nav-button">ABOUT US</a>
+                <a href="{{ url('content') }}" class="nav-button">PORTFOLIO</a>
+                <a href="{{ url('Layout')}}" class="nav-button">CONTACT ME</a>
+            </div>
         </nav>
     </section>
     </header>
