@@ -4,8 +4,8 @@ Where to find Lainey's Activities:
 
 Midterm Activities - master branch
 
-Midterm Project - Project
+Midterm Project - Project branch 
 
-Finals Activities - LarvelFinals
+Finals Activities - LarvelFinals branch
 
 Submitted by : Bertiz, Elaine Mae A. | BSIT 3C
