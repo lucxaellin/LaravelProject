@@ -8,6 +8,6 @@ Midterm Project - Project branch
 
 Final's Activities - LarvelFinals branch
 
-Final's Project - FinalsProject branch
+Final's Project - Recipe_Sharing_Platform branch
 
 Submitted by : Bertiz, Elaine Mae A. | BSIT 3C
